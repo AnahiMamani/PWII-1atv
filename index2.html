@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+    <script>
+        function escreveMsgNoSpan(txtDaMsg)
+        {
+            let meuElemSpan = document.getElementById("meuSpanDeMsg");
+            meuElemSpan.innerHTML = txtDaMsg;
+            console.log(meuElemSpan);
+        }
+        escreveMsgNoSpan("minha mensagem que não aparece");
+    </script>
+</head>
+<body>
+    <h1>TESTE DE CARREGAMENTO DE BODY</h1>
+    <span id="meuSpanDeMsg">??</span>
+</body>
+</html>
